@@ -49,8 +49,8 @@ button:hover {
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  width: 50%;
+  
   box-shadow:1px 1px 4px orange;
 }
 
