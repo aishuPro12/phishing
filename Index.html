@@ -4,38 +4,29 @@
     
     <title>private-fast-follows</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
       
 <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 <body>
-    <script>
-      
-      function lighttheme(){
-        document.body.style.background="linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)";
-        document.form.style.background="white";
-      }
-      function darktheme(){
-        document.body.style.background="grey";
-        document.body.form.style.background="grey";
-        document.getElementbyId('2').style.background="#04AA6D"
-       
-      }
-     function myVibrate() {
-    window.navigator.vibrate(30 , 40 , 30 , 60,);
-     } 
-  
-   function myVibrateR() {
-    window.navigator.vibrate(30 , 40 , 30 , 60,);
-       alert('not connected to tor browser');
-   }
-    </script>
 
-<h2 >Fast-Follows</h2> 
+<br>
+<h2 >FAST-FOLLOWS</h2> 
+
+    <nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label> °THEMES MENU°</label>
+  <ul>
+    <li><a ><button class="drk" type="button" onclick="myDark()">dark mode</bbutton</a></li>
+    <li>  <a>  <button class="lght" type="button" onclick="myLight()">light mode</button></a></li>
+  </ul>
+</nav>
+<br>
 <p> We provide legal services to our visitors. If you want to donate as help, please visit tordexu on tor. We are just spreading love ❤️</p>
+<br>
 <br>
 <hr>
 <br>
-<form id="for" action="other.html" method="post" netlify>
+<form id="for" action="other.html" method="post"  data-netlify-recaptcha="true">
   <div class="imgcontainer">
     <img src="Light.png" alt="logo" class="avatar">
   </div>
@@ -49,27 +40,21 @@
         
     <button type="submit" onclick="myVibrate()">gain</button>
     <label>
-      <div data-netlify-recaptcha="true" ></div>
+      
       <input type="checkbox" checked="checked" name="remember"> safe mode (slow follow rate)
     </label>
   </div>
 
   
 </form>
+<br>
+<br>
+<br>
 
     
 <button onclick="myVibrateR()" id="1" class="dumb">report</button>
-
-<br>
-<hr>
-<br>
-<h3> if you want to change the theme click below buttons❤️</h3>
 <br>
 <br>
-<p>|==..</p><button onclick="darktheme()" id="1" class="dumb">d a r k m o d e</button>
-<button onclick="lighttheme()" id="2" class="dumb">l i g h t m o d e</button> <p>|==°°</p>
 
 </body>
 </html>
-   
-   
