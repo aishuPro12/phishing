@@ -93,6 +93,13 @@ h2 {
   
 }
 
+.nav {
+  
+   background: linear-gradient(315deg, #999999, #818181);
+   height:8vh;
+
+}
+
 p {
   
   color:pink;
