@@ -5,6 +5,10 @@ body {
   background-size:fit;
   transition-duration:3s;
 }
+
+.cont {
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
 form {
   border: 3px solid #f1f1f1;
   
