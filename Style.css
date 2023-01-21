@@ -90,13 +90,13 @@ span.psw {
 
 h2 {
   color:white;
+ Padding-top : 2.5vh;
   
 }
 
 .nav {
   
-   background: linear-gradient(315deg, #999999, #818181);
-   height:8vh;
+   background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
 
 }
 
