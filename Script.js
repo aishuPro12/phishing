@@ -5,7 +5,7 @@
         document.form.style.background="white";
       };
       function darktheme(){
-        document.body.style.background="grey";
+        document.body.style.background="black";
         document.body.form.style.background="grey";
         document.getElementbyId('2').style.background="#04AA6D"
        
